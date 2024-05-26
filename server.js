@@ -4,7 +4,7 @@ const port = process.env.PORT || 8080;
 
 // Rota para retornar a mensagem de boas-vindas
 app.get('/', (req, res) => {
-    res.json({ mensagem: 'Teste de Deploy do Sala-do-Tesouro/node !' });
+    res.json({ mensagem: 'Teste de Deploy do Sala-do-Tesouro/node com express !' });
 });
 
 // Iniciar o servidor

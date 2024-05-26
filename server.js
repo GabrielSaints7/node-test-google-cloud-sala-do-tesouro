@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 8080;
 
 // Rota para retornar a mensagem de boas-vindas
 app.get('/', (req, res) => {
